@@ -1,0 +1,5 @@
+/home/tei/projects/cpp/scratch/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/tei/projects/cpp/scratch/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/tei/projects/cpp/scratch/cmake-build-debug/CMakeFiles/day_three.dir
+/home/tei/projects/cpp/scratch/cmake-build-debug/CMakeFiles/day_two.dir
+/home/tei/projects/cpp/scratch/cmake-build-debug/CMakeFiles/day_one.dir

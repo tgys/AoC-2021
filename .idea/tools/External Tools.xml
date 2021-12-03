@@ -1,0 +1,16 @@
+<toolSet name="External Tools">
+  <tool name="build_with_cmake" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/run/current-system/sw/bin/cmake" />
+      <option name="PARAMETERS" value="-DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/run/current-system/sw/bin/make -DCMAKE_C_COMPILER=/run/current-system/sw/bin/clang -DCMAKE_CXX_COMPILER=/run/current-system/sw/bin/clang++ -G &quot;CodeBlocks - Unix Makefiles&quot; /home/tei/projects/cpp/scratch" />
+      <option name="WORKING_DIRECTORY" value="/run/current-system/sw/bin" />
+    </exec>
+  </tool>
+  <tool name="clean_with_cmake" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/run/current-system/sw/bin/cmake" />
+      <option name="PARAMETERS" value="--build /home/tei/projects/scratch/cmake-build-debug --target clean" />
+      <option name="WORKING_DIRECTORY" value="/run/current-system/sw/bin" />
+    </exec>
+  </tool>
+</toolSet>

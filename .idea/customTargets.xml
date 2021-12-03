@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CLionExternalBuildManager">
+    <target id="b2532b8e-b7b9-4c27-b234-199374f6a8dd" name="build_scratch" defaultType="TOOL">
+      <configuration id="7a420adc-540c-42c0-9f57-2dc055d0a148" name="build_scratch" toolchainName="Clang">
+        <build type="TOOL">
+          <tool actionId="Tool_External Tools_build_with_cmake" />
+        </build>
+        <clean type="TOOL">
+          <tool actionId="Tool_External Tools_clean_with_cmake" />
+        </clean>
+      </configuration>
+    </target>
+  </component>
+</project>
