@@ -130,6 +130,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named day_five_pt2
+
+# Build rule for target.
+day_five_pt2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_five_pt2
+.PHONY : day_five_pt2
+
+# fast build rule for target.
+day_five_pt2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_five_pt2.dir/build.make CMakeFiles/day_five_pt2.dir/build
+.PHONY : day_five_pt2/fast
+
+#=============================================================================
+# Target rules for targets named day_five_pt1
+
+# Build rule for target.
+day_five_pt1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_five_pt1
+.PHONY : day_five_pt1
+
+# fast build rule for target.
+day_five_pt1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_five_pt1.dir/build.make CMakeFiles/day_five_pt1.dir/build
+.PHONY : day_five_pt1/fast
+
+#=============================================================================
+# Target rules for targets named day_four
+
+# Build rule for target.
+day_four: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_four
+.PHONY : day_four
+
+# fast build rule for target.
+day_four/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_four.dir/build.make CMakeFiles/day_four.dir/build
+.PHONY : day_four/fast
+
+#=============================================================================
 # Target rules for targets named day_three
 
 # Build rule for target.
@@ -167,6 +206,87 @@ day_one: cmake_check_build_system
 day_one/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_one.dir/build.make CMakeFiles/day_one.dir/build
 .PHONY : day_one/fast
+
+day_five_pt1.o: day_five_pt1.cpp.o
+
+.PHONY : day_five_pt1.o
+
+# target to build an object file
+day_five_pt1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_five_pt1.dir/build.make CMakeFiles/day_five_pt1.dir/day_five_pt1.cpp.o
+.PHONY : day_five_pt1.cpp.o
+
+day_five_pt1.i: day_five_pt1.cpp.i
+
+.PHONY : day_five_pt1.i
+
+# target to preprocess a source file
+day_five_pt1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_five_pt1.dir/build.make CMakeFiles/day_five_pt1.dir/day_five_pt1.cpp.i
+.PHONY : day_five_pt1.cpp.i
+
+day_five_pt1.s: day_five_pt1.cpp.s
+
+.PHONY : day_five_pt1.s
+
+# target to generate assembly for a file
+day_five_pt1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_five_pt1.dir/build.make CMakeFiles/day_five_pt1.dir/day_five_pt1.cpp.s
+.PHONY : day_five_pt1.cpp.s
+
+day_five_pt2.o: day_five_pt2.cpp.o
+
+.PHONY : day_five_pt2.o
+
+# target to build an object file
+day_five_pt2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_five_pt2.dir/build.make CMakeFiles/day_five_pt2.dir/day_five_pt2.cpp.o
+.PHONY : day_five_pt2.cpp.o
+
+day_five_pt2.i: day_five_pt2.cpp.i
+
+.PHONY : day_five_pt2.i
+
+# target to preprocess a source file
+day_five_pt2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_five_pt2.dir/build.make CMakeFiles/day_five_pt2.dir/day_five_pt2.cpp.i
+.PHONY : day_five_pt2.cpp.i
+
+day_five_pt2.s: day_five_pt2.cpp.s
+
+.PHONY : day_five_pt2.s
+
+# target to generate assembly for a file
+day_five_pt2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_five_pt2.dir/build.make CMakeFiles/day_five_pt2.dir/day_five_pt2.cpp.s
+.PHONY : day_five_pt2.cpp.s
+
+day_four.o: day_four.cpp.o
+
+.PHONY : day_four.o
+
+# target to build an object file
+day_four.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_four.dir/build.make CMakeFiles/day_four.dir/day_four.cpp.o
+.PHONY : day_four.cpp.o
+
+day_four.i: day_four.cpp.i
+
+.PHONY : day_four.i
+
+# target to preprocess a source file
+day_four.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_four.dir/build.make CMakeFiles/day_four.dir/day_four.cpp.i
+.PHONY : day_four.cpp.i
+
+day_four.s: day_four.cpp.s
+
+.PHONY : day_four.s
+
+# target to generate assembly for a file
+day_four.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_four.dir/build.make CMakeFiles/day_four.dir/day_four.cpp.s
+.PHONY : day_four.cpp.s
 
 day_one.o: day_one.cpp.o
 
@@ -257,9 +377,21 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... day_five_pt1"
+	@echo "... day_five_pt2"
+	@echo "... day_four"
 	@echo "... day_one"
 	@echo "... day_three"
 	@echo "... day_two"
+	@echo "... day_five_pt1.o"
+	@echo "... day_five_pt1.i"
+	@echo "... day_five_pt1.s"
+	@echo "... day_five_pt2.o"
+	@echo "... day_five_pt2.i"
+	@echo "... day_five_pt2.s"
+	@echo "... day_four.o"
+	@echo "... day_four.i"
+	@echo "... day_four.s"
 	@echo "... day_one.o"
 	@echo "... day_one.i"
 	@echo "... day_one.s"
