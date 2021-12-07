@@ -39,7 +39,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/nix/store/qvc6cz5d43jhhm4a3r48xkrc82xh1s95-binutils-2.35.1/bin/objdump")
+  set(CMAKE_OBJDUMP "CMAKE_OBJDUMP-NOTFOUND")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

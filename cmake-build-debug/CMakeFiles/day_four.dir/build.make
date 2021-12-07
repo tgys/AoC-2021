@@ -79,15 +79,15 @@ include CMakeFiles/day_four.dir/flags.make
 CMakeFiles/day_four.dir/day_four.cpp.o: CMakeFiles/day_four.dir/flags.make
 CMakeFiles/day_four.dir/day_four.cpp.o: ../day_four.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tei/projects/cpp/scratch/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/day_four.dir/day_four.cpp.o"
-	/nix/store/gg2rq3hrl3rf92nq6dnqhdyyxaa89aqf-gcc-wrapper-10.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/day_four.dir/day_four.cpp.o -c /home/tei/projects/cpp/scratch/day_four.cpp
+	/run/current-system/sw/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/day_four.dir/day_four.cpp.o -c /home/tei/projects/cpp/scratch/day_four.cpp
 
 CMakeFiles/day_four.dir/day_four.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/day_four.dir/day_four.cpp.i"
-	/nix/store/gg2rq3hrl3rf92nq6dnqhdyyxaa89aqf-gcc-wrapper-10.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tei/projects/cpp/scratch/day_four.cpp > CMakeFiles/day_four.dir/day_four.cpp.i
+	/run/current-system/sw/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tei/projects/cpp/scratch/day_four.cpp > CMakeFiles/day_four.dir/day_four.cpp.i
 
 CMakeFiles/day_four.dir/day_four.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/day_four.dir/day_four.cpp.s"
-	/nix/store/gg2rq3hrl3rf92nq6dnqhdyyxaa89aqf-gcc-wrapper-10.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tei/projects/cpp/scratch/day_four.cpp -o CMakeFiles/day_four.dir/day_four.cpp.s
+	/run/current-system/sw/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tei/projects/cpp/scratch/day_four.cpp -o CMakeFiles/day_four.dir/day_four.cpp.s
 
 # Object files for target day_four
 day_four_OBJECTS = \

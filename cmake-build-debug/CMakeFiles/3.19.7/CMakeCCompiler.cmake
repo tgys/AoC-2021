@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "/nix/store/gg2rq3hrl3rf92nq6dnqhdyyxaa89aqf-gcc-wrapper-10.3.0/bin/gcc")
+set(CMAKE_C_COMPILER "/run/current-system/sw/bin/gcc")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_COMPILER_VERSION "10.3.0")
@@ -18,11 +18,11 @@ set(CMAKE_C_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "/nix/store/qvc6cz5d43jhhm4a3r48xkrc82xh1s95-binutils-2.35.1/bin/ar")
-set(CMAKE_C_COMPILER_AR "/nix/store/cfkfpca5ymx2rf66k6f16sa3lb6ndgc2-gcc-10.3.0/bin/gcc-ar")
-set(CMAKE_RANLIB "/nix/store/qvc6cz5d43jhhm4a3r48xkrc82xh1s95-binutils-2.35.1/bin/ranlib")
-set(CMAKE_C_COMPILER_RANLIB "/nix/store/cfkfpca5ymx2rf66k6f16sa3lb6ndgc2-gcc-10.3.0/bin/gcc-ranlib")
-set(CMAKE_LINKER "/nix/store/828ivsyickql0b62b9qmkfwv6qbdca46-clang-wrapper-7.1.0/bin/ld")
+set(CMAKE_AR "CMAKE_AR-NOTFOUND")
+set(CMAKE_C_COMPILER_AR "CMAKE_C_COMPILER_AR-NOTFOUND")
+set(CMAKE_RANLIB ":")
+set(CMAKE_C_COMPILER_RANLIB "CMAKE_C_COMPILER_RANLIB-NOTFOUND")
+set(CMAKE_LINKER "/run/current-system/sw/bin/ld")
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCC 1)
 set(CMAKE_C_COMPILER_LOADED 1)
@@ -71,7 +71,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/nix/store/s66jpm2c0xq1fxk7xlvsf3yaf23s1c4k-compiler-rt-libc-7.1.0-dev/include;/nix/store/nk7h93lyayx50m483pzyy0gf4rx8vm2g-boost-1.69.0-dev/include;/nix/store/cfkfpca5ymx2rf66k6f16sa3lb6ndgc2-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include;/nix/store/cfkfpca5ymx2rf66k6f16sa3lb6ndgc2-gcc-10.3.0/include;/nix/store/cfkfpca5ymx2rf66k6f16sa3lb6ndgc2-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed;/nix/store/niplk2w8g0ri0n8h07zyp1l3cbnzv7a2-glibc-2.32-46-dev/include")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include;/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include;/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed;/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "gcc;gcc_s;c;gcc;gcc_s")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/nix/store/l7ja8911l6pzs7yqgirisrx050syx34g-boost-1.69.0/lib;/nix/store/ikl21vjfq900ccbqg1xasp83kadw6q8y-glibc-2.32-46/lib;/nix/store/5lgyy30nyvq59c4m2a7skmwaqz3jja3n-gcc-10.3.0-lib/lib;/nix/store/gg2rq3hrl3rf92nq6dnqhdyyxaa89aqf-gcc-wrapper-10.3.0/bin;/nix/store/cfkfpca5ymx2rf66k6f16sa3lb6ndgc2-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0;/nix/store/cfkfpca5ymx2rf66k6f16sa3lb6ndgc2-gcc-10.3.0/lib64;/nix/store/cfkfpca5ymx2rf66k6f16sa3lb6ndgc2-gcc-10.3.0/lib")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/nix/store/jsp3h3wpzc842j0rz61m5ly71ak6qgdn-glibc-2.32-54/lib;/nix/store/9w7ra0b2nqnbly4v64vwayml255lb9bp-gcc-10.3.0-lib/lib;/nix/store/f9592ghi61h9q590f6hav7vw1nykl5h8-gcc-wrapper-10.3.0/bin;/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0;/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib64;/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

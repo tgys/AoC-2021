@@ -79,15 +79,15 @@ include CMakeFiles/day_one.dir/flags.make
 CMakeFiles/day_one.dir/day_one.cpp.o: CMakeFiles/day_one.dir/flags.make
 CMakeFiles/day_one.dir/day_one.cpp.o: ../day_one.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tei/projects/cpp/scratch/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/day_one.dir/day_one.cpp.o"
-	/nix/store/gg2rq3hrl3rf92nq6dnqhdyyxaa89aqf-gcc-wrapper-10.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/day_one.dir/day_one.cpp.o -c /home/tei/projects/cpp/scratch/day_one.cpp
+	/run/current-system/sw/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/day_one.dir/day_one.cpp.o -c /home/tei/projects/cpp/scratch/day_one.cpp
 
 CMakeFiles/day_one.dir/day_one.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/day_one.dir/day_one.cpp.i"
-	/nix/store/gg2rq3hrl3rf92nq6dnqhdyyxaa89aqf-gcc-wrapper-10.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tei/projects/cpp/scratch/day_one.cpp > CMakeFiles/day_one.dir/day_one.cpp.i
+	/run/current-system/sw/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tei/projects/cpp/scratch/day_one.cpp > CMakeFiles/day_one.dir/day_one.cpp.i
 
 CMakeFiles/day_one.dir/day_one.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/day_one.dir/day_one.cpp.s"
-	/nix/store/gg2rq3hrl3rf92nq6dnqhdyyxaa89aqf-gcc-wrapper-10.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tei/projects/cpp/scratch/day_one.cpp -o CMakeFiles/day_one.dir/day_one.cpp.s
+	/run/current-system/sw/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tei/projects/cpp/scratch/day_one.cpp -o CMakeFiles/day_one.dir/day_one.cpp.s
 
 # Object files for target day_one
 day_one_OBJECTS = \

@@ -1,0 +1,1 @@
+/run/current-system/sw/bin/g++ -g CMakeFiles/day_seven.dir/day_seven.cpp.o -o day_seven 

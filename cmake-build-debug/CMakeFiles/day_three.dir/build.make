@@ -79,15 +79,15 @@ include CMakeFiles/day_three.dir/flags.make
 CMakeFiles/day_three.dir/day_three.cpp.o: CMakeFiles/day_three.dir/flags.make
 CMakeFiles/day_three.dir/day_three.cpp.o: ../day_three.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tei/projects/cpp/scratch/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/day_three.dir/day_three.cpp.o"
-	/nix/store/gg2rq3hrl3rf92nq6dnqhdyyxaa89aqf-gcc-wrapper-10.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/day_three.dir/day_three.cpp.o -c /home/tei/projects/cpp/scratch/day_three.cpp
+	/run/current-system/sw/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/day_three.dir/day_three.cpp.o -c /home/tei/projects/cpp/scratch/day_three.cpp
 
 CMakeFiles/day_three.dir/day_three.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/day_three.dir/day_three.cpp.i"
-	/nix/store/gg2rq3hrl3rf92nq6dnqhdyyxaa89aqf-gcc-wrapper-10.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tei/projects/cpp/scratch/day_three.cpp > CMakeFiles/day_three.dir/day_three.cpp.i
+	/run/current-system/sw/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tei/projects/cpp/scratch/day_three.cpp > CMakeFiles/day_three.dir/day_three.cpp.i
 
 CMakeFiles/day_three.dir/day_three.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/day_three.dir/day_three.cpp.s"
-	/nix/store/gg2rq3hrl3rf92nq6dnqhdyyxaa89aqf-gcc-wrapper-10.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tei/projects/cpp/scratch/day_three.cpp -o CMakeFiles/day_three.dir/day_three.cpp.s
+	/run/current-system/sw/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tei/projects/cpp/scratch/day_three.cpp -o CMakeFiles/day_three.dir/day_three.cpp.s
 
 # Object files for target day_three
 day_three_OBJECTS = \

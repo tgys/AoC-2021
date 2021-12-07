@@ -1,1 +1,1 @@
-/nix/store/gg2rq3hrl3rf92nq6dnqhdyyxaa89aqf-gcc-wrapper-10.3.0/bin/g++ -g CMakeFiles/day_one.dir/day_one.cpp.o -o day_one 
+/run/current-system/sw/bin/g++ -g CMakeFiles/day_one.dir/day_one.cpp.o -o day_one 

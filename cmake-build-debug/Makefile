@@ -75,17 +75,6 @@ CMAKE_BINARY_DIR = /home/tei/projects/cpp/scratch/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/nix/store/h240v616x2b9j3sbsiw7m58df47q91vn-cmake-3.19.7/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -96,6 +85,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/nix/store/h240v616x2b9j3sbsiw7m58df47q91vn-cmake-3.19.7/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -128,6 +128,32 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named day_seven
+
+# Build rule for target.
+day_seven: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_seven
+.PHONY : day_seven
+
+# fast build rule for target.
+day_seven/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_seven.dir/build.make CMakeFiles/day_seven.dir/build
+.PHONY : day_seven/fast
+
+#=============================================================================
+# Target rules for targets named day_six
+
+# Build rule for target.
+day_six: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_six
+.PHONY : day_six
+
+# fast build rule for target.
+day_six/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_six.dir/build.make CMakeFiles/day_six.dir/build
+.PHONY : day_six/fast
 
 #=============================================================================
 # Target rules for targets named day_five_pt2
@@ -315,6 +341,60 @@ day_one.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_one.dir/build.make CMakeFiles/day_one.dir/day_one.cpp.s
 .PHONY : day_one.cpp.s
 
+day_seven.o: day_seven.cpp.o
+
+.PHONY : day_seven.o
+
+# target to build an object file
+day_seven.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_seven.dir/build.make CMakeFiles/day_seven.dir/day_seven.cpp.o
+.PHONY : day_seven.cpp.o
+
+day_seven.i: day_seven.cpp.i
+
+.PHONY : day_seven.i
+
+# target to preprocess a source file
+day_seven.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_seven.dir/build.make CMakeFiles/day_seven.dir/day_seven.cpp.i
+.PHONY : day_seven.cpp.i
+
+day_seven.s: day_seven.cpp.s
+
+.PHONY : day_seven.s
+
+# target to generate assembly for a file
+day_seven.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_seven.dir/build.make CMakeFiles/day_seven.dir/day_seven.cpp.s
+.PHONY : day_seven.cpp.s
+
+day_six.o: day_six.cpp.o
+
+.PHONY : day_six.o
+
+# target to build an object file
+day_six.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_six.dir/build.make CMakeFiles/day_six.dir/day_six.cpp.o
+.PHONY : day_six.cpp.o
+
+day_six.i: day_six.cpp.i
+
+.PHONY : day_six.i
+
+# target to preprocess a source file
+day_six.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_six.dir/build.make CMakeFiles/day_six.dir/day_six.cpp.i
+.PHONY : day_six.cpp.i
+
+day_six.s: day_six.cpp.s
+
+.PHONY : day_six.s
+
+# target to generate assembly for a file
+day_six.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_six.dir/build.make CMakeFiles/day_six.dir/day_six.cpp.s
+.PHONY : day_six.cpp.s
+
 day_three.o: day_three.cpp.o
 
 .PHONY : day_three.o
@@ -381,6 +461,8 @@ help:
 	@echo "... day_five_pt2"
 	@echo "... day_four"
 	@echo "... day_one"
+	@echo "... day_seven"
+	@echo "... day_six"
 	@echo "... day_three"
 	@echo "... day_two"
 	@echo "... day_five_pt1.o"
@@ -395,6 +477,12 @@ help:
 	@echo "... day_one.o"
 	@echo "... day_one.i"
 	@echo "... day_one.s"
+	@echo "... day_seven.o"
+	@echo "... day_seven.i"
+	@echo "... day_seven.s"
+	@echo "... day_six.o"
+	@echo "... day_six.i"
+	@echo "... day_six.s"
 	@echo "... day_three.o"
 	@echo "... day_three.i"
 	@echo "... day_three.s"
