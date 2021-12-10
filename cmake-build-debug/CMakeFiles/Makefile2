@@ -72,8 +72,11 @@ CMAKE_BINARY_DIR = /home/tei/projects/cpp/scratch/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/day_nine.dir/all
+all: CMakeFiles/day_eight.dir/all
 all: CMakeFiles/day_seven.dir/all
 all: CMakeFiles/day_six.dir/all
+all: CMakeFiles/day_ten.dir/all
 all: CMakeFiles/day_five_pt2.dir/all
 all: CMakeFiles/day_five_pt1.dir/all
 all: CMakeFiles/day_four.dir/all
@@ -89,8 +92,11 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/day_nine.dir/clean
+clean: CMakeFiles/day_eight.dir/clean
 clean: CMakeFiles/day_seven.dir/clean
 clean: CMakeFiles/day_six.dir/clean
+clean: CMakeFiles/day_ten.dir/clean
 clean: CMakeFiles/day_five_pt2.dir/clean
 clean: CMakeFiles/day_five_pt1.dir/clean
 clean: CMakeFiles/day_four.dir/clean
@@ -101,13 +107,67 @@ clean: CMakeFiles/day_one.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/day_nine.dir
+
+# All Build rule for target.
+CMakeFiles/day_nine.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_nine.dir/build.make CMakeFiles/day_nine.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_nine.dir/build.make CMakeFiles/day_nine.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tei/projects/cpp/scratch/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target day_nine"
+.PHONY : CMakeFiles/day_nine.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/day_nine.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tei/projects/cpp/scratch/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/day_nine.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tei/projects/cpp/scratch/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/day_nine.dir/rule
+
+# Convenience name for target.
+day_nine: CMakeFiles/day_nine.dir/rule
+
+.PHONY : day_nine
+
+# clean rule for target.
+CMakeFiles/day_nine.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_nine.dir/build.make CMakeFiles/day_nine.dir/clean
+.PHONY : CMakeFiles/day_nine.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/day_eight.dir
+
+# All Build rule for target.
+CMakeFiles/day_eight.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_eight.dir/build.make CMakeFiles/day_eight.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_eight.dir/build.make CMakeFiles/day_eight.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tei/projects/cpp/scratch/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target day_eight"
+.PHONY : CMakeFiles/day_eight.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/day_eight.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tei/projects/cpp/scratch/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/day_eight.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tei/projects/cpp/scratch/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/day_eight.dir/rule
+
+# Convenience name for target.
+day_eight: CMakeFiles/day_eight.dir/rule
+
+.PHONY : day_eight
+
+# clean rule for target.
+CMakeFiles/day_eight.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_eight.dir/build.make CMakeFiles/day_eight.dir/clean
+.PHONY : CMakeFiles/day_eight.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/day_seven.dir
 
 # All Build rule for target.
 CMakeFiles/day_seven.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_seven.dir/build.make CMakeFiles/day_seven.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_seven.dir/build.make CMakeFiles/day_seven.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tei/projects/cpp/scratch/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target day_seven"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tei/projects/cpp/scratch/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target day_seven"
 .PHONY : CMakeFiles/day_seven.dir/all
 
 # Build rule for subdir invocation for target.
@@ -134,7 +194,7 @@ CMakeFiles/day_seven.dir/clean:
 CMakeFiles/day_six.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_six.dir/build.make CMakeFiles/day_six.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_six.dir/build.make CMakeFiles/day_six.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tei/projects/cpp/scratch/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target day_six"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tei/projects/cpp/scratch/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target day_six"
 .PHONY : CMakeFiles/day_six.dir/all
 
 # Build rule for subdir invocation for target.
@@ -155,13 +215,40 @@ CMakeFiles/day_six.dir/clean:
 .PHONY : CMakeFiles/day_six.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/day_ten.dir
+
+# All Build rule for target.
+CMakeFiles/day_ten.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_ten.dir/build.make CMakeFiles/day_ten.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_ten.dir/build.make CMakeFiles/day_ten.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tei/projects/cpp/scratch/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target day_ten"
+.PHONY : CMakeFiles/day_ten.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/day_ten.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tei/projects/cpp/scratch/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/day_ten.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tei/projects/cpp/scratch/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/day_ten.dir/rule
+
+# Convenience name for target.
+day_ten: CMakeFiles/day_ten.dir/rule
+
+.PHONY : day_ten
+
+# clean rule for target.
+CMakeFiles/day_ten.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_ten.dir/build.make CMakeFiles/day_ten.dir/clean
+.PHONY : CMakeFiles/day_ten.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/day_five_pt2.dir
 
 # All Build rule for target.
 CMakeFiles/day_five_pt2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_five_pt2.dir/build.make CMakeFiles/day_five_pt2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_five_pt2.dir/build.make CMakeFiles/day_five_pt2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tei/projects/cpp/scratch/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target day_five_pt2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tei/projects/cpp/scratch/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target day_five_pt2"
 .PHONY : CMakeFiles/day_five_pt2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -188,7 +275,7 @@ CMakeFiles/day_five_pt2.dir/clean:
 CMakeFiles/day_five_pt1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_five_pt1.dir/build.make CMakeFiles/day_five_pt1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_five_pt1.dir/build.make CMakeFiles/day_five_pt1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tei/projects/cpp/scratch/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target day_five_pt1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tei/projects/cpp/scratch/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target day_five_pt1"
 .PHONY : CMakeFiles/day_five_pt1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -215,7 +302,7 @@ CMakeFiles/day_five_pt1.dir/clean:
 CMakeFiles/day_four.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_four.dir/build.make CMakeFiles/day_four.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_four.dir/build.make CMakeFiles/day_four.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tei/projects/cpp/scratch/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target day_four"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tei/projects/cpp/scratch/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target day_four"
 .PHONY : CMakeFiles/day_four.dir/all
 
 # Build rule for subdir invocation for target.
@@ -242,7 +329,7 @@ CMakeFiles/day_four.dir/clean:
 CMakeFiles/day_three.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_three.dir/build.make CMakeFiles/day_three.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_three.dir/build.make CMakeFiles/day_three.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tei/projects/cpp/scratch/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target day_three"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tei/projects/cpp/scratch/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target day_three"
 .PHONY : CMakeFiles/day_three.dir/all
 
 # Build rule for subdir invocation for target.
@@ -269,7 +356,7 @@ CMakeFiles/day_three.dir/clean:
 CMakeFiles/day_two.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_two.dir/build.make CMakeFiles/day_two.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_two.dir/build.make CMakeFiles/day_two.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tei/projects/cpp/scratch/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target day_two"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tei/projects/cpp/scratch/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target day_two"
 .PHONY : CMakeFiles/day_two.dir/all
 
 # Build rule for subdir invocation for target.
@@ -296,7 +383,7 @@ CMakeFiles/day_two.dir/clean:
 CMakeFiles/day_one.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_one.dir/build.make CMakeFiles/day_one.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_one.dir/build.make CMakeFiles/day_one.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tei/projects/cpp/scratch/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target day_one"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tei/projects/cpp/scratch/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target day_one"
 .PHONY : CMakeFiles/day_one.dir/all
 
 # Build rule for subdir invocation for target.

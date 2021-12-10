@@ -5,7 +5,7 @@
 
 #include <bits/stdc++.h>
 
-#define two_line_break() { \
+#define line_break() { \
     std::cin.ignore(10000, '\n'); \
     if(strlen(buffer) == 0){ \
     lastbuffernull = true; \
@@ -50,7 +50,7 @@ int main() {
             }
         }
 
-        two_line_break();
+        line_break();
     }
 
     for(size_t i = 0; i < inp_length; ++i){
