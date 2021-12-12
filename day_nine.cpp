@@ -21,7 +21,7 @@ enum EdgeType{
     corner_bl = 8,
     corner_br = 9,
     notedge = 10,
-    unset = 10
+    unset = 11
 };
 
 const uint_fast16_t max_input_len = 2000;
@@ -265,7 +265,6 @@ int main()
 
     std::vector<uint_fast32_t> basin_sums;
     for(auto crd : low_pt_coords) {
-        std::set<Coord> unvisited;
         std::set<Coord> visited;
         uint_fast32_t this_basin_sum = find_basins(crd, visited, grid, edge_types, 0);
         basin_sums.push_back(this_basin_sum);
