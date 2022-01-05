@@ -29,7 +29,7 @@ typedef std::array<std::array<int,grid_size>, grid_size> Grid;
 typedef std::tuple<int ,int> Coord;
 typedef std::map<Coord,EdgeType> EdgeTMap;
 
-inline void add_next(std::set<Coord>& visited, std::vector<Coord>& next, int comp_col, int comp_row, Grid& grid) {
+inline void add_next(std::vector<Coord>& next, int comp_col, int comp_row, Grid& grid) {
     Coord comp_coord{comp_col, comp_row};
     grid[comp_col][comp_row]++;
     int comp = grid[comp_col][comp_row];
@@ -49,70 +49,70 @@ int flash(Coord current, std::set<Coord>& visited, Grid& grid, EdgeTMap& edge_ma
         EdgeType edge_type = edge_map[current];
         switch(edge_type) {
             case leftedge : {
-                add_next(visited, next,col,row+1,grid);
-                add_next(visited, next,col,row-1,grid);
-                add_next(visited, next,col+1,row,grid);
-                add_next(visited, next,col+1,row-1,grid);
-                add_next(visited, next,col+1,row+1,grid);
+                add_next(next,col,row+1,grid);
+                add_next(next,col,row-1,grid);
+                add_next(next,col+1,row,grid);
+                add_next(next,col+1,row-1,grid);
+                add_next(next,col+1,row+1,grid);
                 break;
             }
             case rightedge : {
-                add_next(visited, next,col,row+1,grid);
-                add_next(visited, next,col,row-1,grid);
-                add_next(visited, next,col-1,row,grid);
-                add_next(visited, next,col-1,row+1,grid);
-                add_next(visited, next,col-1,row-1,grid);
+                add_next(next,col,row+1,grid);
+                add_next(next,col,row-1,grid);
+                add_next(next,col-1,row,grid);
+                add_next(next,col-1,row+1,grid);
+                add_next(next,col-1,row-1,grid);
                 break;
             }
             case topedge : {
-                add_next(visited, next,col,row+1,grid);
-                add_next(visited, next,col-1,row,grid);
-                add_next(visited, next,col+1,row,grid);
-                add_next(visited, next,col-1,row+1,grid);
-                add_next(visited, next,col+1,row+1,grid);
+                add_next(next,col,row+1,grid);
+                add_next(next,col-1,row,grid);
+                add_next(next,col+1,row,grid);
+                add_next(next,col-1,row+1,grid);
+                add_next(next,col+1,row+1,grid);
                 break;
             }
             case bottomedge : {
-                add_next(visited, next,col,row-1,grid);
-                add_next(visited, next,col-1,row,grid);
-                add_next(visited, next,col+1,row,grid);
-                add_next(visited, next,col-1,row-1,grid);
-                add_next(visited, next,col+1,row-1,grid);
+                add_next(next,col,row-1,grid);
+                add_next(next,col-1,row,grid);
+                add_next(next,col+1,row,grid);
+                add_next(next,col-1,row-1,grid);
+                add_next(next,col+1,row-1,grid);
                 break;
             }
             case corner_tl : {
-                add_next(visited, next,col,row+1,grid);
-                add_next(visited, next,col+1,row,grid);
-                add_next(visited, next,col+1,row+1,grid);
+                add_next(next,col,row+1,grid);
+                add_next(next,col+1,row,grid);
+                add_next(next,col+1,row+1,grid);
                 break;
             }
             case corner_tr : {
-                add_next(visited, next,col,row+1,grid);
-                add_next(visited, next,col-1,row,grid);
-                add_next(visited, next,col-1,row+1,grid);
+                add_next(next,col,row+1,grid);
+                add_next(next,col-1,row,grid);
+                add_next(next,col-1,row+1,grid);
                 break;
             }
             case corner_bl : {
-                add_next(visited, next,col,row-1,grid);
-                add_next(visited, next,col+1,row,grid);
-                add_next(visited, next,col+1,row-1,grid);
+                add_next(next,col,row-1,grid);
+                add_next(next,col+1,row,grid);
+                add_next(next,col+1,row-1,grid);
                 break;
             }
             case corner_br : {
-                add_next(visited, next,col,row-1,grid);
-                add_next(visited, next,col-1,row,grid);
-                add_next(visited, next,col-1,row-1,grid);
+                add_next(next,col,row-1,grid);
+                add_next(next,col-1,row,grid);
+                add_next(next,col-1,row-1,grid);
                 break;
             }
             case notedge : {
-                add_next(visited,next,col,row-1,grid);
-                add_next(visited,next,col,row+1,grid);
-                add_next(visited,next,col-1,row,grid);
-                add_next(visited,next,col+1,row,grid);
-                add_next(visited,next,col-1,row-1,grid); //up, left
-                add_next(visited,next,col+1,row-1,grid); //up, right
-                add_next(visited,next,col+1,row+1,grid); //down,right
-                add_next(visited,next,col-1,row+1,grid); //down, left
+                add_next(next,col,row-1,grid);
+                add_next(next,col,row+1,grid);
+                add_next(next,col-1,row,grid);
+                add_next(next,col+1,row,grid);
+                add_next(next,col-1,row-1,grid); //up, left
+                add_next(next,col+1,row-1,grid); //up, right
+                add_next(next,col+1,row+1,grid); //down,right
+                add_next(next,col-1,row+1,grid); //down, left
                 break;
             }
             default:;

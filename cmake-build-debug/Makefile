@@ -130,134 +130,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named day_12_pt2
+# Target rules for targets named day_nine
 
 # Build rule for target.
-day_12_pt2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_12_pt2
-.PHONY : day_12_pt2
+day_nine: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_nine
+.PHONY : day_nine
 
 # fast build rule for target.
-day_12_pt2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_12_pt2.dir/build.make CMakeFiles/day_12_pt2.dir/build
-.PHONY : day_12_pt2/fast
+day_nine/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_nine.dir/build.make CMakeFiles/day_nine.dir/build
+.PHONY : day_nine/fast
 
 #=============================================================================
-# Target rules for targets named day_two
+# Target rules for targets named day_14
 
 # Build rule for target.
-day_two: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_two
-.PHONY : day_two
+day_14: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_14
+.PHONY : day_14
 
 # fast build rule for target.
-day_two/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_two.dir/build.make CMakeFiles/day_two.dir/build
-.PHONY : day_two/fast
-
-#=============================================================================
-# Target rules for targets named day_three
-
-# Build rule for target.
-day_three: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_three
-.PHONY : day_three
-
-# fast build rule for target.
-day_three/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_three.dir/build.make CMakeFiles/day_three.dir/build
-.PHONY : day_three/fast
-
-#=============================================================================
-# Target rules for targets named day_four
-
-# Build rule for target.
-day_four: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_four
-.PHONY : day_four
-
-# fast build rule for target.
-day_four/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_four.dir/build.make CMakeFiles/day_four.dir/build
-.PHONY : day_four/fast
-
-#=============================================================================
-# Target rules for targets named day_12_pt1
-
-# Build rule for target.
-day_12_pt1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_12_pt1
-.PHONY : day_12_pt1
-
-# fast build rule for target.
-day_12_pt1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_12_pt1.dir/build.make CMakeFiles/day_12_pt1.dir/build
-.PHONY : day_12_pt1/fast
-
-#=============================================================================
-# Target rules for targets named day_five_pt2
-
-# Build rule for target.
-day_five_pt2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_five_pt2
-.PHONY : day_five_pt2
-
-# fast build rule for target.
-day_five_pt2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_five_pt2.dir/build.make CMakeFiles/day_five_pt2.dir/build
-.PHONY : day_five_pt2/fast
-
-#=============================================================================
-# Target rules for targets named day_five_pt1
-
-# Build rule for target.
-day_five_pt1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_five_pt1
-.PHONY : day_five_pt1
-
-# fast build rule for target.
-day_five_pt1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_five_pt1.dir/build.make CMakeFiles/day_five_pt1.dir/build
-.PHONY : day_five_pt1/fast
-
-#=============================================================================
-# Target rules for targets named day_ten
-
-# Build rule for target.
-day_ten: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_ten
-.PHONY : day_ten
-
-# fast build rule for target.
-day_ten/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_ten.dir/build.make CMakeFiles/day_ten.dir/build
-.PHONY : day_ten/fast
-
-#=============================================================================
-# Target rules for targets named day_six
-
-# Build rule for target.
-day_six: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_six
-.PHONY : day_six
-
-# fast build rule for target.
-day_six/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_six.dir/build.make CMakeFiles/day_six.dir/build
-.PHONY : day_six/fast
-
-#=============================================================================
-# Target rules for targets named day_seven
-
-# Build rule for target.
-day_seven: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_seven
-.PHONY : day_seven
-
-# fast build rule for target.
-day_seven/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_seven.dir/build.make CMakeFiles/day_seven.dir/build
-.PHONY : day_seven/fast
+day_14/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_14.dir/build.make CMakeFiles/day_14.dir/build
+.PHONY : day_14/fast
 
 #=============================================================================
 # Target rules for targets named day_one
@@ -273,6 +169,58 @@ day_one/fast:
 .PHONY : day_one/fast
 
 #=============================================================================
+# Target rules for targets named day_16
+
+# Build rule for target.
+day_16: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_16
+.PHONY : day_16
+
+# fast build rule for target.
+day_16/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_16.dir/build.make CMakeFiles/day_16.dir/build
+.PHONY : day_16/fast
+
+#=============================================================================
+# Target rules for targets named day_18
+
+# Build rule for target.
+day_18: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_18
+.PHONY : day_18
+
+# fast build rule for target.
+day_18/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_18.dir/build.make CMakeFiles/day_18.dir/build
+.PHONY : day_18/fast
+
+#=============================================================================
+# Target rules for targets named day_seven
+
+# Build rule for target.
+day_seven: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_seven
+.PHONY : day_seven
+
+# fast build rule for target.
+day_seven/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_seven.dir/build.make CMakeFiles/day_seven.dir/build
+.PHONY : day_seven/fast
+
+#=============================================================================
+# Target rules for targets named day_ten
+
+# Build rule for target.
+day_ten: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_ten
+.PHONY : day_ten
+
+# fast build rule for target.
+day_ten/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_ten.dir/build.make CMakeFiles/day_ten.dir/build
+.PHONY : day_ten/fast
+
+#=============================================================================
 # Target rules for targets named day_11
 
 # Build rule for target.
@@ -284,6 +232,84 @@ day_11: cmake_check_build_system
 day_11/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_11.dir/build.make CMakeFiles/day_11.dir/build
 .PHONY : day_11/fast
+
+#=============================================================================
+# Target rules for targets named day_five_pt2
+
+# Build rule for target.
+day_five_pt2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_five_pt2
+.PHONY : day_five_pt2
+
+# fast build rule for target.
+day_five_pt2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_five_pt2.dir/build.make CMakeFiles/day_five_pt2.dir/build
+.PHONY : day_five_pt2/fast
+
+#=============================================================================
+# Target rules for targets named day_22
+
+# Build rule for target.
+day_22: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_22
+.PHONY : day_22
+
+# fast build rule for target.
+day_22/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_22.dir/build.make CMakeFiles/day_22.dir/build
+.PHONY : day_22/fast
+
+#=============================================================================
+# Target rules for targets named day_12_pt1
+
+# Build rule for target.
+day_12_pt1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_12_pt1
+.PHONY : day_12_pt1
+
+# fast build rule for target.
+day_12_pt1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_12_pt1.dir/build.make CMakeFiles/day_12_pt1.dir/build
+.PHONY : day_12_pt1/fast
+
+#=============================================================================
+# Target rules for targets named day_four
+
+# Build rule for target.
+day_four: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_four
+.PHONY : day_four
+
+# fast build rule for target.
+day_four/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_four.dir/build.make CMakeFiles/day_four.dir/build
+.PHONY : day_four/fast
+
+#=============================================================================
+# Target rules for targets named day_five_pt1
+
+# Build rule for target.
+day_five_pt1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_five_pt1
+.PHONY : day_five_pt1
+
+# fast build rule for target.
+day_five_pt1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_five_pt1.dir/build.make CMakeFiles/day_five_pt1.dir/build
+.PHONY : day_five_pt1/fast
+
+#=============================================================================
+# Target rules for targets named day_15
+
+# Build rule for target.
+day_15: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_15
+.PHONY : day_15
+
+# fast build rule for target.
+day_15/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_15.dir/build.make CMakeFiles/day_15.dir/build
+.PHONY : day_15/fast
 
 #=============================================================================
 # Target rules for targets named day_eight
@@ -299,17 +325,173 @@ day_eight/fast:
 .PHONY : day_eight/fast
 
 #=============================================================================
-# Target rules for targets named day_nine
+# Target rules for targets named day_three
 
 # Build rule for target.
-day_nine: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_nine
-.PHONY : day_nine
+day_three: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_three
+.PHONY : day_three
 
 # fast build rule for target.
-day_nine/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_nine.dir/build.make CMakeFiles/day_nine.dir/build
-.PHONY : day_nine/fast
+day_three/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_three.dir/build.make CMakeFiles/day_three.dir/build
+.PHONY : day_three/fast
+
+#=============================================================================
+# Target rules for targets named day_two
+
+# Build rule for target.
+day_two: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_two
+.PHONY : day_two
+
+# fast build rule for target.
+day_two/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_two.dir/build.make CMakeFiles/day_two.dir/build
+.PHONY : day_two/fast
+
+#=============================================================================
+# Target rules for targets named day_19
+
+# Build rule for target.
+day_19: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_19
+.PHONY : day_19
+
+# fast build rule for target.
+day_19/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_19.dir/build.make CMakeFiles/day_19.dir/build
+.PHONY : day_19/fast
+
+#=============================================================================
+# Target rules for targets named day_12_pt2
+
+# Build rule for target.
+day_12_pt2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_12_pt2
+.PHONY : day_12_pt2
+
+# fast build rule for target.
+day_12_pt2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_12_pt2.dir/build.make CMakeFiles/day_12_pt2.dir/build
+.PHONY : day_12_pt2/fast
+
+#=============================================================================
+# Target rules for targets named day_13
+
+# Build rule for target.
+day_13: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_13
+.PHONY : day_13
+
+# fast build rule for target.
+day_13/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_13.dir/build.make CMakeFiles/day_13.dir/build
+.PHONY : day_13/fast
+
+#=============================================================================
+# Target rules for targets named day_17
+
+# Build rule for target.
+day_17: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_17
+.PHONY : day_17
+
+# fast build rule for target.
+day_17/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_17.dir/build.make CMakeFiles/day_17.dir/build
+.PHONY : day_17/fast
+
+#=============================================================================
+# Target rules for targets named day_20
+
+# Build rule for target.
+day_20: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_20
+.PHONY : day_20
+
+# fast build rule for target.
+day_20/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_20.dir/build.make CMakeFiles/day_20.dir/build
+.PHONY : day_20/fast
+
+#=============================================================================
+# Target rules for targets named day_21
+
+# Build rule for target.
+day_21: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_21
+.PHONY : day_21
+
+# fast build rule for target.
+day_21/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_21.dir/build.make CMakeFiles/day_21.dir/build
+.PHONY : day_21/fast
+
+#=============================================================================
+# Target rules for targets named day_six
+
+# Build rule for target.
+day_six: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_six
+.PHONY : day_six
+
+# fast build rule for target.
+day_six/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_six.dir/build.make CMakeFiles/day_six.dir/build
+.PHONY : day_six/fast
+
+#=============================================================================
+# Target rules for targets named day_23_m1
+
+# Build rule for target.
+day_23_m1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_23_m1
+.PHONY : day_23_m1
+
+# fast build rule for target.
+day_23_m1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_23_m1.dir/build.make CMakeFiles/day_23_m1.dir/build
+.PHONY : day_23_m1/fast
+
+#=============================================================================
+# Target rules for targets named day_23_m2
+
+# Build rule for target.
+day_23_m2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_23_m2
+.PHONY : day_23_m2
+
+# fast build rule for target.
+day_23_m2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_23_m2.dir/build.make CMakeFiles/day_23_m2.dir/build
+.PHONY : day_23_m2/fast
+
+#=============================================================================
+# Target rules for targets named day_24
+
+# Build rule for target.
+day_24: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_24
+.PHONY : day_24
+
+# fast build rule for target.
+day_24/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_24.dir/build.make CMakeFiles/day_24.dir/build
+.PHONY : day_24/fast
+
+#=============================================================================
+# Target rules for targets named day_25
+
+# Build rule for target.
+day_25: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day_25
+.PHONY : day_25
+
+# fast build rule for target.
+day_25/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_25.dir/build.make CMakeFiles/day_25.dir/build
+.PHONY : day_25/fast
 
 day_11.o: day_11.cpp.o
 
@@ -391,6 +573,384 @@ day_12_pt2.s: day_12_pt2.cpp.s
 day_12_pt2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_12_pt2.dir/build.make CMakeFiles/day_12_pt2.dir/day_12_pt2.cpp.s
 .PHONY : day_12_pt2.cpp.s
+
+day_13.o: day_13.cpp.o
+
+.PHONY : day_13.o
+
+# target to build an object file
+day_13.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_13.dir/build.make CMakeFiles/day_13.dir/day_13.cpp.o
+.PHONY : day_13.cpp.o
+
+day_13.i: day_13.cpp.i
+
+.PHONY : day_13.i
+
+# target to preprocess a source file
+day_13.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_13.dir/build.make CMakeFiles/day_13.dir/day_13.cpp.i
+.PHONY : day_13.cpp.i
+
+day_13.s: day_13.cpp.s
+
+.PHONY : day_13.s
+
+# target to generate assembly for a file
+day_13.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_13.dir/build.make CMakeFiles/day_13.dir/day_13.cpp.s
+.PHONY : day_13.cpp.s
+
+day_14.o: day_14.cpp.o
+
+.PHONY : day_14.o
+
+# target to build an object file
+day_14.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_14.dir/build.make CMakeFiles/day_14.dir/day_14.cpp.o
+.PHONY : day_14.cpp.o
+
+day_14.i: day_14.cpp.i
+
+.PHONY : day_14.i
+
+# target to preprocess a source file
+day_14.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_14.dir/build.make CMakeFiles/day_14.dir/day_14.cpp.i
+.PHONY : day_14.cpp.i
+
+day_14.s: day_14.cpp.s
+
+.PHONY : day_14.s
+
+# target to generate assembly for a file
+day_14.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_14.dir/build.make CMakeFiles/day_14.dir/day_14.cpp.s
+.PHONY : day_14.cpp.s
+
+day_15.o: day_15.cpp.o
+
+.PHONY : day_15.o
+
+# target to build an object file
+day_15.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_15.dir/build.make CMakeFiles/day_15.dir/day_15.cpp.o
+.PHONY : day_15.cpp.o
+
+day_15.i: day_15.cpp.i
+
+.PHONY : day_15.i
+
+# target to preprocess a source file
+day_15.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_15.dir/build.make CMakeFiles/day_15.dir/day_15.cpp.i
+.PHONY : day_15.cpp.i
+
+day_15.s: day_15.cpp.s
+
+.PHONY : day_15.s
+
+# target to generate assembly for a file
+day_15.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_15.dir/build.make CMakeFiles/day_15.dir/day_15.cpp.s
+.PHONY : day_15.cpp.s
+
+day_16.o: day_16.cpp.o
+
+.PHONY : day_16.o
+
+# target to build an object file
+day_16.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_16.dir/build.make CMakeFiles/day_16.dir/day_16.cpp.o
+.PHONY : day_16.cpp.o
+
+day_16.i: day_16.cpp.i
+
+.PHONY : day_16.i
+
+# target to preprocess a source file
+day_16.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_16.dir/build.make CMakeFiles/day_16.dir/day_16.cpp.i
+.PHONY : day_16.cpp.i
+
+day_16.s: day_16.cpp.s
+
+.PHONY : day_16.s
+
+# target to generate assembly for a file
+day_16.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_16.dir/build.make CMakeFiles/day_16.dir/day_16.cpp.s
+.PHONY : day_16.cpp.s
+
+day_17.o: day_17.cpp.o
+
+.PHONY : day_17.o
+
+# target to build an object file
+day_17.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_17.dir/build.make CMakeFiles/day_17.dir/day_17.cpp.o
+.PHONY : day_17.cpp.o
+
+day_17.i: day_17.cpp.i
+
+.PHONY : day_17.i
+
+# target to preprocess a source file
+day_17.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_17.dir/build.make CMakeFiles/day_17.dir/day_17.cpp.i
+.PHONY : day_17.cpp.i
+
+day_17.s: day_17.cpp.s
+
+.PHONY : day_17.s
+
+# target to generate assembly for a file
+day_17.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_17.dir/build.make CMakeFiles/day_17.dir/day_17.cpp.s
+.PHONY : day_17.cpp.s
+
+day_18.o: day_18.cpp.o
+
+.PHONY : day_18.o
+
+# target to build an object file
+day_18.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_18.dir/build.make CMakeFiles/day_18.dir/day_18.cpp.o
+.PHONY : day_18.cpp.o
+
+day_18.i: day_18.cpp.i
+
+.PHONY : day_18.i
+
+# target to preprocess a source file
+day_18.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_18.dir/build.make CMakeFiles/day_18.dir/day_18.cpp.i
+.PHONY : day_18.cpp.i
+
+day_18.s: day_18.cpp.s
+
+.PHONY : day_18.s
+
+# target to generate assembly for a file
+day_18.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_18.dir/build.make CMakeFiles/day_18.dir/day_18.cpp.s
+.PHONY : day_18.cpp.s
+
+day_19.o: day_19.cpp.o
+
+.PHONY : day_19.o
+
+# target to build an object file
+day_19.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_19.dir/build.make CMakeFiles/day_19.dir/day_19.cpp.o
+.PHONY : day_19.cpp.o
+
+day_19.i: day_19.cpp.i
+
+.PHONY : day_19.i
+
+# target to preprocess a source file
+day_19.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_19.dir/build.make CMakeFiles/day_19.dir/day_19.cpp.i
+.PHONY : day_19.cpp.i
+
+day_19.s: day_19.cpp.s
+
+.PHONY : day_19.s
+
+# target to generate assembly for a file
+day_19.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_19.dir/build.make CMakeFiles/day_19.dir/day_19.cpp.s
+.PHONY : day_19.cpp.s
+
+day_20.o: day_20.cpp.o
+
+.PHONY : day_20.o
+
+# target to build an object file
+day_20.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_20.dir/build.make CMakeFiles/day_20.dir/day_20.cpp.o
+.PHONY : day_20.cpp.o
+
+day_20.i: day_20.cpp.i
+
+.PHONY : day_20.i
+
+# target to preprocess a source file
+day_20.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_20.dir/build.make CMakeFiles/day_20.dir/day_20.cpp.i
+.PHONY : day_20.cpp.i
+
+day_20.s: day_20.cpp.s
+
+.PHONY : day_20.s
+
+# target to generate assembly for a file
+day_20.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_20.dir/build.make CMakeFiles/day_20.dir/day_20.cpp.s
+.PHONY : day_20.cpp.s
+
+day_21.o: day_21.cpp.o
+
+.PHONY : day_21.o
+
+# target to build an object file
+day_21.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_21.dir/build.make CMakeFiles/day_21.dir/day_21.cpp.o
+.PHONY : day_21.cpp.o
+
+day_21.i: day_21.cpp.i
+
+.PHONY : day_21.i
+
+# target to preprocess a source file
+day_21.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_21.dir/build.make CMakeFiles/day_21.dir/day_21.cpp.i
+.PHONY : day_21.cpp.i
+
+day_21.s: day_21.cpp.s
+
+.PHONY : day_21.s
+
+# target to generate assembly for a file
+day_21.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_21.dir/build.make CMakeFiles/day_21.dir/day_21.cpp.s
+.PHONY : day_21.cpp.s
+
+day_22.o: day_22.cpp.o
+
+.PHONY : day_22.o
+
+# target to build an object file
+day_22.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_22.dir/build.make CMakeFiles/day_22.dir/day_22.cpp.o
+.PHONY : day_22.cpp.o
+
+day_22.i: day_22.cpp.i
+
+.PHONY : day_22.i
+
+# target to preprocess a source file
+day_22.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_22.dir/build.make CMakeFiles/day_22.dir/day_22.cpp.i
+.PHONY : day_22.cpp.i
+
+day_22.s: day_22.cpp.s
+
+.PHONY : day_22.s
+
+# target to generate assembly for a file
+day_22.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_22.dir/build.make CMakeFiles/day_22.dir/day_22.cpp.s
+.PHONY : day_22.cpp.s
+
+day_23_m1.o: day_23_m1.cpp.o
+
+.PHONY : day_23_m1.o
+
+# target to build an object file
+day_23_m1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_23_m1.dir/build.make CMakeFiles/day_23_m1.dir/day_23_m1.cpp.o
+.PHONY : day_23_m1.cpp.o
+
+day_23_m1.i: day_23_m1.cpp.i
+
+.PHONY : day_23_m1.i
+
+# target to preprocess a source file
+day_23_m1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_23_m1.dir/build.make CMakeFiles/day_23_m1.dir/day_23_m1.cpp.i
+.PHONY : day_23_m1.cpp.i
+
+day_23_m1.s: day_23_m1.cpp.s
+
+.PHONY : day_23_m1.s
+
+# target to generate assembly for a file
+day_23_m1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_23_m1.dir/build.make CMakeFiles/day_23_m1.dir/day_23_m1.cpp.s
+.PHONY : day_23_m1.cpp.s
+
+day_23_m2.o: day_23_m2.cpp.o
+
+.PHONY : day_23_m2.o
+
+# target to build an object file
+day_23_m2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_23_m2.dir/build.make CMakeFiles/day_23_m2.dir/day_23_m2.cpp.o
+.PHONY : day_23_m2.cpp.o
+
+day_23_m2.i: day_23_m2.cpp.i
+
+.PHONY : day_23_m2.i
+
+# target to preprocess a source file
+day_23_m2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_23_m2.dir/build.make CMakeFiles/day_23_m2.dir/day_23_m2.cpp.i
+.PHONY : day_23_m2.cpp.i
+
+day_23_m2.s: day_23_m2.cpp.s
+
+.PHONY : day_23_m2.s
+
+# target to generate assembly for a file
+day_23_m2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_23_m2.dir/build.make CMakeFiles/day_23_m2.dir/day_23_m2.cpp.s
+.PHONY : day_23_m2.cpp.s
+
+day_24.o: day_24.cpp.o
+
+.PHONY : day_24.o
+
+# target to build an object file
+day_24.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_24.dir/build.make CMakeFiles/day_24.dir/day_24.cpp.o
+.PHONY : day_24.cpp.o
+
+day_24.i: day_24.cpp.i
+
+.PHONY : day_24.i
+
+# target to preprocess a source file
+day_24.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_24.dir/build.make CMakeFiles/day_24.dir/day_24.cpp.i
+.PHONY : day_24.cpp.i
+
+day_24.s: day_24.cpp.s
+
+.PHONY : day_24.s
+
+# target to generate assembly for a file
+day_24.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_24.dir/build.make CMakeFiles/day_24.dir/day_24.cpp.s
+.PHONY : day_24.cpp.s
+
+day_25.o: day_25.cpp.o
+
+.PHONY : day_25.o
+
+# target to build an object file
+day_25.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_25.dir/build.make CMakeFiles/day_25.dir/day_25.cpp.o
+.PHONY : day_25.cpp.o
+
+day_25.i: day_25.cpp.i
+
+.PHONY : day_25.i
+
+# target to preprocess a source file
+day_25.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_25.dir/build.make CMakeFiles/day_25.dir/day_25.cpp.i
+.PHONY : day_25.cpp.i
+
+day_25.s: day_25.cpp.s
+
+.PHONY : day_25.s
+
+# target to generate assembly for a file
+day_25.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day_25.dir/build.make CMakeFiles/day_25.dir/day_25.cpp.s
+.PHONY : day_25.cpp.s
 
 day_eight.o: day_eight.cpp.o
 
@@ -700,6 +1260,20 @@ help:
 	@echo "... day_11"
 	@echo "... day_12_pt1"
 	@echo "... day_12_pt2"
+	@echo "... day_13"
+	@echo "... day_14"
+	@echo "... day_15"
+	@echo "... day_16"
+	@echo "... day_17"
+	@echo "... day_18"
+	@echo "... day_19"
+	@echo "... day_20"
+	@echo "... day_21"
+	@echo "... day_22"
+	@echo "... day_23_m1"
+	@echo "... day_23_m2"
+	@echo "... day_24"
+	@echo "... day_25"
 	@echo "... day_eight"
 	@echo "... day_five_pt1"
 	@echo "... day_five_pt2"
@@ -720,6 +1294,48 @@ help:
 	@echo "... day_12_pt2.o"
 	@echo "... day_12_pt2.i"
 	@echo "... day_12_pt2.s"
+	@echo "... day_13.o"
+	@echo "... day_13.i"
+	@echo "... day_13.s"
+	@echo "... day_14.o"
+	@echo "... day_14.i"
+	@echo "... day_14.s"
+	@echo "... day_15.o"
+	@echo "... day_15.i"
+	@echo "... day_15.s"
+	@echo "... day_16.o"
+	@echo "... day_16.i"
+	@echo "... day_16.s"
+	@echo "... day_17.o"
+	@echo "... day_17.i"
+	@echo "... day_17.s"
+	@echo "... day_18.o"
+	@echo "... day_18.i"
+	@echo "... day_18.s"
+	@echo "... day_19.o"
+	@echo "... day_19.i"
+	@echo "... day_19.s"
+	@echo "... day_20.o"
+	@echo "... day_20.i"
+	@echo "... day_20.s"
+	@echo "... day_21.o"
+	@echo "... day_21.i"
+	@echo "... day_21.s"
+	@echo "... day_22.o"
+	@echo "... day_22.i"
+	@echo "... day_22.s"
+	@echo "... day_23_m1.o"
+	@echo "... day_23_m1.i"
+	@echo "... day_23_m1.s"
+	@echo "... day_23_m2.o"
+	@echo "... day_23_m2.i"
+	@echo "... day_23_m2.s"
+	@echo "... day_24.o"
+	@echo "... day_24.i"
+	@echo "... day_24.s"
+	@echo "... day_25.o"
+	@echo "... day_25.i"
+	@echo "... day_25.s"
 	@echo "... day_eight.o"
 	@echo "... day_eight.i"
 	@echo "... day_eight.s"

@@ -11,602 +11,10 @@
 				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="day_12_pt2">
-				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_12_pt2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
-					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_12_pt2"/>
-					<CompileFile command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="day_12_pt2/fast">
-				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_12_pt2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
-					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_12_pt2/fast"/>
-					<CompileFile command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="day_two">
-				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_two" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
-					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_two"/>
-					<CompileFile command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="day_two/fast">
-				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_two" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
-					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_two/fast"/>
-					<CompileFile command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="day_three">
-				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_three" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
-					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_three"/>
-					<CompileFile command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="day_three/fast">
-				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_three" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
-					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_three/fast"/>
-					<CompileFile command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="day_four">
-				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_four" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
-					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_four"/>
-					<CompileFile command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="day_four/fast">
-				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_four" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
-					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_four/fast"/>
-					<CompileFile command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="day_12_pt1">
-				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_12_pt1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
-					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_12_pt1"/>
-					<CompileFile command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="day_12_pt1/fast">
-				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_12_pt1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
-					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_12_pt1/fast"/>
-					<CompileFile command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="day_five_pt2">
-				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_five_pt2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
-					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_five_pt2"/>
-					<CompileFile command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="day_five_pt2/fast">
-				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_five_pt2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
-					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_five_pt2/fast"/>
-					<CompileFile command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="day_five_pt1">
-				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_five_pt1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
-					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_five_pt1"/>
-					<CompileFile command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="day_five_pt1/fast">
-				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_five_pt1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
-					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_five_pt1/fast"/>
-					<CompileFile command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="day_ten">
-				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_ten" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
-					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_ten"/>
-					<CompileFile command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="day_ten/fast">
-				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_ten" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
-					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_ten/fast"/>
-					<CompileFile command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="day_six">
-				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_six" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
-					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_six"/>
-					<CompileFile command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="day_six/fast">
-				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_six" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
-					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_six/fast"/>
-					<CompileFile command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="day_seven">
-				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_seven" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
-					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_seven"/>
-					<CompileFile command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="day_seven/fast">
-				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_seven" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
-					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_seven/fast"/>
-					<CompileFile command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="day_one">
-				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_one" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
-					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_one"/>
-					<CompileFile command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="day_one/fast">
-				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_one" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
-					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_one/fast"/>
-					<CompileFile command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="day_11">
-				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_11" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
-					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_11"/>
-					<CompileFile command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="day_11/fast">
-				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_11" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
-					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_11/fast"/>
-					<CompileFile command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="day_eight">
-				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_eight" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
-					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_eight"/>
-					<CompileFile command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="day_eight/fast">
-				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_eight" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
-					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
-					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_eight/fast"/>
-					<CompileFile command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="day_nine">
@@ -625,10 +33,10 @@
 					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_nine"/>
-					<CompileFile command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_nine"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="day_nine/fast">
@@ -647,10 +55,1218 @@
 					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_nine/fast"/>
-					<CompileFile command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/run/current-system/sw/bin/make -j12 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_nine/fast"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_14">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_14" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_14"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_14/fast">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_14" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_14/fast"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_one">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_one" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_one"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_one/fast">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_one" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_one/fast"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_16">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_16" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_16"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_16/fast">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_16" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_16/fast"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_18">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_18" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_18"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_18/fast">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_18" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_18/fast"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_seven">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_seven" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_seven"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_seven/fast">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_seven" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_seven/fast"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_ten">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_ten" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_ten"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_ten/fast">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_ten" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_ten/fast"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_11">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_11" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_11"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_11/fast">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_11" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_11/fast"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_five_pt2">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_five_pt2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_five_pt2"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_five_pt2/fast">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_five_pt2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_five_pt2/fast"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_22">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_22" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_22"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_22/fast">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_22" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_22/fast"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_12_pt1">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_12_pt1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_12_pt1"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_12_pt1/fast">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_12_pt1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_12_pt1/fast"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_four">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_four" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_four"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_four/fast">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_four" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_four/fast"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_five_pt1">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_five_pt1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_five_pt1"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_five_pt1/fast">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_five_pt1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_five_pt1/fast"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_15">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_15" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_15"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_15/fast">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_15" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_15/fast"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_eight">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_eight" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_eight"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_eight/fast">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_eight" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_eight/fast"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_three">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_three" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_three"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_three/fast">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_three" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_three/fast"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_two">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_two" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_two"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_two/fast">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_two" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_two/fast"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_19">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_19" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_19"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_19/fast">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_19" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_19/fast"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_12_pt2">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_12_pt2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_12_pt2"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_12_pt2/fast">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_12_pt2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_12_pt2/fast"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_13">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_13" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_13"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_13/fast">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_13" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_13/fast"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_17">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_17" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_17"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_17/fast">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_17" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_17/fast"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_20">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_20" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_20"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_20/fast">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_20" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_20/fast"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_21">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_21" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_21"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_21/fast">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_21" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_21/fast"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_six">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_six" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_six"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_six/fast">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_six" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_six/fast"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_23_m1">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_23_m1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_23_m1"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_23_m1/fast">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_23_m1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_23_m1/fast"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_23_m2">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_23_m2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_23_m2"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_23_m2/fast">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_23_m2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_23_m2/fast"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_24">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_24" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_24"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_24/fast">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_24" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_24/fast"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_25">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_25" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_25"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day_25/fast">
+				<Option output="/home/tei/projects/cpp/scratch/cmake-build-debug/day_25" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/nfw1qqdi7rpshfkrn3nqf4k6zrhcdkqr-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/q141hd8jl7in5223jmf7kmx9h517km4p-glibc-2.32-54-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 day_25/fast"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/tei/projects/cpp/scratch/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/tei/projects/cpp/scratch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
@@ -662,6 +1278,48 @@
 		</Unit>
 		<Unit filename="/home/tei/projects/cpp/scratch/day_12_pt2.cpp">
 			<Option target="day_12_pt2"/>
+		</Unit>
+		<Unit filename="/home/tei/projects/cpp/scratch/day_13.cpp">
+			<Option target="day_13"/>
+		</Unit>
+		<Unit filename="/home/tei/projects/cpp/scratch/day_14.cpp">
+			<Option target="day_14"/>
+		</Unit>
+		<Unit filename="/home/tei/projects/cpp/scratch/day_15.cpp">
+			<Option target="day_15"/>
+		</Unit>
+		<Unit filename="/home/tei/projects/cpp/scratch/day_16.cpp">
+			<Option target="day_16"/>
+		</Unit>
+		<Unit filename="/home/tei/projects/cpp/scratch/day_17.cpp">
+			<Option target="day_17"/>
+		</Unit>
+		<Unit filename="/home/tei/projects/cpp/scratch/day_18.cpp">
+			<Option target="day_18"/>
+		</Unit>
+		<Unit filename="/home/tei/projects/cpp/scratch/day_19.cpp">
+			<Option target="day_19"/>
+		</Unit>
+		<Unit filename="/home/tei/projects/cpp/scratch/day_20.cpp">
+			<Option target="day_20"/>
+		</Unit>
+		<Unit filename="/home/tei/projects/cpp/scratch/day_21.cpp">
+			<Option target="day_21"/>
+		</Unit>
+		<Unit filename="/home/tei/projects/cpp/scratch/day_22.cpp">
+			<Option target="day_22"/>
+		</Unit>
+		<Unit filename="/home/tei/projects/cpp/scratch/day_23_m1.cpp">
+			<Option target="day_23_m1"/>
+		</Unit>
+		<Unit filename="/home/tei/projects/cpp/scratch/day_23_m2.cpp">
+			<Option target="day_23_m2"/>
+		</Unit>
+		<Unit filename="/home/tei/projects/cpp/scratch/day_24.cpp">
+			<Option target="day_24"/>
+		</Unit>
+		<Unit filename="/home/tei/projects/cpp/scratch/day_25.cpp">
+			<Option target="day_25"/>
 		</Unit>
 		<Unit filename="/home/tei/projects/cpp/scratch/day_eight.cpp">
 			<Option target="day_eight"/>

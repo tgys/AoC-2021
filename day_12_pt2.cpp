@@ -96,6 +96,6 @@ int main()
         }
     }
 
-    std::cout << "no. of paths that visit small caves at most once: " << paths.size() << '\n';
+    std::cout << "no. of paths that visit a single small cave at most twice: " << paths.size() << '\n';
     return 0;
 } //144603
